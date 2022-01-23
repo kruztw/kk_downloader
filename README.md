@@ -1,6 +1,7 @@
-# KK Downloader
-
-![logo](/logo.png)
+<div align="center">
+    <img src="https://github.com/kruztw/kk_downloader/blob/main/logo.png" height="200">
+    <br><br><br><br>
+</div>
 
 KK Downloader is a tool to help you download your kkbox music to your computer automatically.
 
@@ -10,10 +11,11 @@ KK Downloader is a tool to help you download your kkbox music to your computer a
 * OK
   * successfully downloaded song list
 
+<br>
 
-## How to run ?
+# How to run ?
 
-### Install dependency
+## Install dependency
 
 ```shell=
 python3 -m pip install --upgrade pip
@@ -30,11 +32,17 @@ sudo apt install ffmpeg
 ```
 
 
-### Export kbl
+## Export kbl
 
-![step1](/step1.png)
 
-![step2](/step2.png)
+<div id="mybrand" align="center">
+    <img src="https://github.com/kruztw/kk_downloader/blob/main/step1.png" height="300" width="500">
+    <br>
+    <img src="https://github.com/kruztw/kk_downloader/blob/main/step2.png" height="300" width="500">
+</div>
+
+
+## run kk_downloader
 
 ```shell=
 python3 kk_downloader.py <kbl>
@@ -43,7 +51,7 @@ python3 kk_downloader.py <kbl>
 
 ## Issue
 
-`pytube.exceptions.RegexMatchError: __init__: could not find match for ^\w+\W`
+### [pytube.exceptions.RegexMatchError: __init__: could not find match for ^\w+\W](https://stackoverflow.com/questions/70776558/pytube-exceptions-regexmatcherror-init-could-not-find-match-for-w-w)
 
 ```shell=
 pip3 show pytube                  # Location defines here
@@ -58,12 +66,10 @@ after:
 var_regex = re.compile(r"^\$*\w+\W")
 ```
 
-[reference](https://stackoverflow.com/questions/70776558/pytube-exceptions-regexmatcherror-init-could-not-find-match-for-w-w)
-
 
 ## TODO
 
 1. progress bar
 2. UI
 3. Singer selection (可選擇創作歌手)
-4. support windows
+4. supporton Windows
