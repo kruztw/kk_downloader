@@ -74,4 +74,4 @@ var_regex = re.compile(r"^\$*\w+\W")
 2. UI
 3. Singer selection (可選擇創作歌手)
 4. supporton Windows
-5. changeable output dir (default: output/)
+5. customized output dir (default: output/)
