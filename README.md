@@ -4,8 +4,11 @@
 
 KK Downloader is a tool to help you download your kkbox music to your computer automatically.
 
-output: store downloaded music
-OK: successfully downloaded song list
+
+* output
+  * store downloaded music
+* OK
+  * successfully downloaded song list
 
 
 ## How to run ?
